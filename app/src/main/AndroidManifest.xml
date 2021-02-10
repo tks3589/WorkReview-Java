@@ -13,15 +13,15 @@
         android:theme="@style/Theme.WorkReviewJava"
         android:usesCleartextTraffic="true">
 
-        <activity android:name=".DbActivity">
+        <activity android:name=".DbActivity" />
+        <activity android:name=".FileActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FileActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
 
     </application>
 
